@@ -6,7 +6,8 @@
 <p>screenshot:</p>
 <p>
 <img src="https://raw.githubusercontent.com/maalireza51/create-react-app/master/public/Screenshot1.png" width="300px"/></br>
-<img src="https://raw.githubusercontent.com/maalireza51/create-react-app/master/public/Screenshot2.png" width="300px"/>
+<img src="https://raw.githubusercontent.com/maalireza51/create-react-app/master/public/Screenshot2.png" width="300px"/></br>
+<img src="https://raw.githubusercontent.com/maalireza51/create-react-app/master/public/Screenshot3.png" width="300px"/>
 </p>
 </br></br>
 <p>I used the sticky template from <a href="https://code.tutsplus.com/tutorials/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5--net-13934">this site</a> but, i modified the structure from pure html/css/js to reactjs and by adding some inputs & buttons has changed to a react app</p>
