@@ -67,3 +67,23 @@ body {
   ul li{
     margin:1em;
   }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  
+  .header{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header :nth-child(n){
+    margin-bottom: 20px;
+  }
+
+  input{
+    padding: 10px;
+  }
