@@ -1,7 +1,7 @@
 body {
     margin: 20px auto;
     font-family: 'Lato';
-    background:#666;
+    background:rgb(174, 174, 174);
     color:#fff;
   }
   
@@ -84,6 +84,66 @@ body {
     margin-bottom: 20px;
   }
 
-  input{
+  .header a{
     padding: 10px;
-  }
+    color: rgb(0, 0, 0);
+    background-color: #99c2ff;
+    text-decoration: none;
+    padding: 15px 80px;
+    box-shadow: 0px 5px 7px rgba(33,33,33,.3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.header a:hover{
+  background-color: #6ea8ff;
+}
+
+.modal{
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+  z-index: 1100;
+}
+
+.modal-body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 100px 40px;
+  box-shadow: 0px 5px 7px rgba(33,33,33,.3);
+  background-color: #fff;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  z-index: 1100;
+}
+.modal-body input, .modal-body textarea{
+  padding: 5px 20px;
+  width: 200px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(181, 181, 181);
+}
+.modal-body input[type="submit"]{
+  width: 100%;
+}
+.modal-body .closebtn{
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 20px;
+  color: rgb(162, 162, 162);
+  cursor: pointer;
+}
