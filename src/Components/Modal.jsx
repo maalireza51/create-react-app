@@ -5,8 +5,8 @@ export default function Modal(props) {
         return null;
     }
     return (
-        <div className='modal'>
-            <div className='modal-body'>
+        <div className='modal' onClick={props.onClose}>
+            <div className='modal-body'onClick={e=>e.stopPropagation()}>
                 <span className='closebtn' onClick={props.onClose}>&#10006;</span>
                 <form>
                     <div className='form-element'>
